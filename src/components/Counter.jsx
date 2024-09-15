@@ -20,6 +20,7 @@ const Counter = () => {
 
     return (
         <div>
+            <h2>Redux-toolkit</h2>
             <h3>Counter App</h3>
             <h4>Count: {count}</h4>
             <button onClick={handleIncrement}>Increment</button>
